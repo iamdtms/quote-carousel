@@ -1,0 +1,68 @@
+body {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: -1px;
+}
+a {
+  color: var(--text-1);
+  text-decoration: none;
+}
+cite {
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0;
+  color: var(--link);
+}
+h2 {
+  color: var(--text-1);
+  letter-spacing: -2px;
+}
+.gui-carousel--snap blockquote p {
+  text-align: left;
+  background-color: var(--link);
+  color: var(--surface-2);
+  padding: 2rem;
+  font-weight: 200;
+  user-select: none;
+  border-radius: 6rem 0 6rem 0;
+}
+.gui-carousel--snap blockquote {
+  position: relative;
+  overflow: hidden;
+  &:before,
+  &:after {
+    font-size: 8rem;
+    line-height: 0;
+    position: absolute;
+    color: var(--text-1);
+  }
+  &:before {
+    left: 0;
+    top: 3rem;
+    content: open-quote;
+    text-align: left;
+  }
+  &:after {
+    right: 0;
+    bottom: 0;
+    content: close-quote;
+    text-align: right;
+  }
+  .gui-carousel--snap h1 {
+    margin-inline: auto;
+  }
+}
+
+.gui-carousel--snapfigcaption {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.gui-carousel--pagination {
+  max-inline-size: 396px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
