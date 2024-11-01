@@ -1,5 +1,5 @@
 # quote-carousel
 
-Component for quoted text sliding.
+A component for quoted text sliding.
 
 Based on gui-challanges.
